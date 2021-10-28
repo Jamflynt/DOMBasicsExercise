@@ -100,3 +100,10 @@ for (a of hungry){
 //     span.innerHTML = spanObj
 //     end.append(span)
 // };
+// Looks like I can! 
+// const end = document.querySelector(`body`);
+//     for (i=0; i<hungry.length; i++){
+//     const span = document.createElement(`span`);
+//     span.innerText = hungry[i];
+//     end.append(span);
+// };
