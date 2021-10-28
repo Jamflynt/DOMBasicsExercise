@@ -63,13 +63,14 @@ aTag.insertAdjacentElement(`afterend`, h5);
 const li = document.getElementsByTagName(`li`)
 const jBeef = li[0];
 jBeef.remove()
+// can also do document.querySelector(`ul>li`).remove();
 
 // 14a
 const divs = document.getElementsByTagName(`div`)
 console.dir(divs);
 // 14b 
 for (d of divs){
-    d.classList.toggle(`background`)
+    d.classList.toggle(`background`);
 };
 
 // 15a 
@@ -88,6 +89,7 @@ const end = document.querySelector(`body`)
 for (a of hungry){
     const span = document.createElement(`span`)
     span.innerHTML = `${a}`;
+    // can also be span.innerHTML = a --> a is the same thing and doesn't need the extra stuff
     end.append(span);
 }
 
